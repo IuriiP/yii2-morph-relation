@@ -1,0 +1,29 @@
+{
+    "name": "iuriip/yii2-morph",
+    "description": "Morphed relations for Yii2",
+    "keywords": ["yii2", "morph", "relation", "model"],
+    "type": "yii2-extension",
+    "license": "MIT",
+    "support": {
+        "source": "https://github.com/IuriiP/yii2-morph-relation.git"
+    },
+    "authors": [
+        {
+            "name": "Iurii Prudius",
+            "email": "hardwork.mouse@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "yiisoft/yii2": "~2.0"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "iuriip\\yii2\\": ""
+        }
+    },
+    "extra": {
+    }
+}
