@@ -1,11 +1,36 @@
 Append the "morphing" possibility to relations
 =====================
 
+INSTALLATION
+------------
+
+### Install via Composer
+
+If you do not have [Composer](http://getcomposer.org/), you may install it by following the instructions
+at [getcomposer.org](http://getcomposer.org/doc/00-intro.md#installation-nix).
+
+Append repository to `composer.json`:
+
+```json
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/IuriiP/yii2-morph-relation.git"
+        }
+        ],
+```
+
+Run update:
+
+~~~
+composer require iuriip/yii2-morph-relation
+~~~
+
 Using
 -----
 
 Add trait to your `ActiveRecord` class and define 
-the "morphed" relation.
+getter (and optionally setter) for the "morphed" relation.
 
 ### Example:
 
